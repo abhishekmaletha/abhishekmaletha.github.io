@@ -1,7 +1,1 @@
 theme: jekyll-theme-slate
-# _config.yml
-
-exclude:
-  - "something" # whatever that's already there..
-  - "Gemfile"
-  - "vendor/"
