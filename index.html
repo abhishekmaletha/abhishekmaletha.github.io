@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
     <!-- custom css -->
     <link rel='stylesheet' href="./css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./css/responsive.css">
     
 </head>
 <body>
@@ -34,13 +36,13 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about-sec">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#project-sec">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#">Contact</a>
+                  <a class="nav-link" href = "mailto: abhishekm.ecebt18@nituk.ac.in">contact</a>
                 </li>
               </ul>
             </div>
@@ -61,8 +63,14 @@
               <h4 class="title-text text-uppercase"> Aspiring Software Engineer</h4>
               <div class="site-buttons">
                 <div class="d-flex flex-row flex-wrap">
-                  <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
-                  <button type="button" class="button btn secondary-button mr-4 text-uppercase"> Get CV</button>
+                  <a href = "mailto: abhishekm.ecebt18@nituk.ac.in">
+                    <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
+                  </a>
+                  
+                  <a href="./docs/resume.pdf" target="blank">
+                    <button type="button" class="button btn secondary-button mr-4 text-uppercase"> Get CV</button>
+                  </a>
+                  
                 </div>
 
               </div>
@@ -76,7 +84,7 @@
       <!-- end banner area -->
 
       <!-- about area -->
-      <section class="about-area">
+      <section id="about-sec" class="about-area">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 col-md-12">
@@ -98,7 +106,10 @@
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                 </p>
               </div>
-              <button type="button" class="btn button primary-button text-uppercase"> Download CV</button>
+              <a href="./docs/resume.pdf" download="./docs/resume.pdf">
+                <button type="button" class="btn button primary-button text-uppercase"> Download CV</button>
+              </a>
+              
             </div>
           </div>
         </div>
@@ -115,48 +126,74 @@
                 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/css3-alt-brands.svg" alt="brand-1">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank">
+                      <img src="./icons/brands/css3-alt-brands.svg" alt="brand-1">
+                    </a>
+                    
                   </div>  
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/html5-brands.svg" alt="brand-2">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank">
+                      <img src="./icons/brands/html5-brands.svg" alt="brand-2">
+                    </a>
+                    
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/javascript.png" alt="brand-3">
+                    <a href="https://www.javascript.com/" target="blank">
+                      <img src="./icons/brands/javascript.png" alt="brand-3">
+                    </a>
+                    
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/python-brands.svg" alt="brand-4">
+                    <a href="https://www.python.org/" target="blank">
+                      <img src="./icons/brands/python-brands.svg" alt="brand-4">
+                    </a>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/c-logo.svg" alt="brand-5">
+                    <a href="https://isocpp.org/" target="blank">
+                      <img src="./icons/brands/c-logo.svg" alt="brand-5">
+                    </a>
+                    
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   
                   <div class="single-brand">
-                    <img src="./icons/brands/react.png" alt="brand-6">
+                    <a href="https://reactjs.org/" target="blank">
+                      <img src="./icons/brands/react.png" alt="brand-6">
+                    </a>
+                    
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/node-js-brands.svg" alt="brand-7">
+                    <a href="https://nodejs.org/" target="blank">
+                      <img src="./icons/brands/node-js-brands.svg" alt="brand-7">
+                    </a>
+                    
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/mongo.png" alt="brand-8">
+                    <a href="https://www.mongodb.com/" target="blank">
+                      <img src="./icons/brands/mongo.png" alt="brand-8">
+                    </a>
+                    
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <img src="./icons/brands/git.png" alt="brand-9">
+                    <a href="https://github.com/" target="blank">
+                      <img src="./icons/brands/git.png" alt="brand-9">
+                    </a>
+                    
                   </div>
                 </div>
               </div>
@@ -174,7 +211,7 @@
                 <div class="d-flex flex-row flex-wrap call-area">
                   <span><i class="fas fa-phone-alt fa-3x"></i></span>
                   <div class="call-now">
-                    <a href="" class="text-uppercase h4 font-xanh-mono">Call Now</a>
+                    <a href="tel:8433020428" class="text-uppercase h4 font-xanh-mono">Call Now</a>
                     <span class="font-xanh-mono py-2">(+91)-8433020428</span>
                   </div>
                 </div>
@@ -241,7 +278,7 @@
 
 
       <!-- project area -->
-      <section class="project-area">
+      <section id="project-sec" class="project-area">
         <div class="container">
           <div class="project-title pb-5">
             <h1 class="text-uppercase text-center title-h1">Projects</h1>
@@ -255,50 +292,50 @@
             <div class="row grid">
               <div class="col-lg-4 col-md-6 col-sm-12 element-item web-dev">
                 <div class="our-project">
-                  <div class="img">
+                  <div class="img text-center">
                     <a class="test-popup-link" href="./img/portfolio/tapri.jpg">
                       <img src="./img/portfolio/tapri.jpg" alt="p1">
                     </a>
                   </div>
-                  <div class="title py-4">
+                  <div class="title text-center py-4">
                     <h4 class="text-uppercase">tapri</h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 element-item ML">
                 <div class="our-project">
-                  <div class="img">
+                  <div class="img text-center">
                     <a class="test-popup-link" href="./img/portfolio/geneticAlgorithm.png">
                       <img src="./img/portfolio/geneticAlgorithm.png" alt="p2">
                     </a>
                     
                   </div>
-                  <div class="title py-4">
+                  <div class="title text-center py-4">
                     <h4 class="text-uppercase">Genetic Algorithm</h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                 <div class="our-project">
-                  <div class="img">
+                  <div class="img text-center">
                     <a class="test-popup-link" href="./img/portfolio/dev-bhoomi.jpg">
                       <img src="./img/portfolio/dev-bhoomi.jpg" alt="p2">
                     </a> 
                   </div>
-                  <div class="title py-4">
+                  <div class="title text-center py-4">
                     <h4 class="text-uppercase">Dev Bhoomi</h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                 <div class="our-project">
-                  <div class="img">
+                  <div class="img text-center">
                     <a class="test-popup-link" href="./img/portfolio/movieLand.jpg">
                       <img src="./img/portfolio/movieLand.jpg" alt="p4"> 
                     </a>
                     
                   </div>
-                  <div class="title py-4">
+                  <div class="title  text-center py-4">
                     <h4 class="text-uppercase">MovieLand</h4>
                   </div>
                 </div>
@@ -315,6 +352,7 @@
     <!--end main area -->
 
 <footer class="footer-area">
+  <section></section>
   <div class="container">
     <div class="">
       <div class="site-logo text-center py-4">
@@ -322,11 +360,15 @@
       </div>
       <div class="social text-center">
         <h5 class="text-uppercase">Follow me</h5>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-dev"></i></a>
-        <a href="#"><i class="fab fa-google"></i></a>        
+        <a href="https://www.linkedin.com/in/abhishekmaletha/" target="blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/abhishekmaletha" target="blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/abhishek.maletha/" target="blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://dev.to/abhishekphoton" target="blank"><i class="fab fa-dev"></i></a>
+        
+        <!-- <a href="#"><i class="fab fa-google"></i></a>         -->
+      </div>
+      <div class=" mail text-center text-uppercase py-1">
+        <a href = "mailto: abhishekm.ecebt18@nituk.ac.in">Mail me</a>
       </div>
       <div class="copyrights text-center">
         <p class="para">&copy;  2021 Abhishek Maletha</p>
@@ -342,6 +384,7 @@
     <!-- <script src="./vendor/isotope/isotope.min.js"></script> -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- magnific-popup script -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
     <!-- <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous"></script>
